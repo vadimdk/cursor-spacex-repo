@@ -42,7 +42,13 @@
   margin-top: 6px;
 }
 
+
+
+
   .material-icons {
+    position: relative;
+    top: -45px;
+    left: 135px;
    color: rgb(183,232,238);
   font-family: 'Material Icons';
   font-weight: normal;
@@ -80,6 +86,10 @@
   color: rgb(183,232,238);
 }
 .icon {
+  position: relative;
+  /* Adjust these values accordingly */
+  top:-45px;
+  left: 135px;
   display: inline-block;
   background: rgb(183,232,238);
   width: 20px;
@@ -90,7 +100,13 @@
   width: 900px;
 }
 
+#current-time {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 6px;
+}
 
-
+.small { font-size: 12px; }
 
 font-family: 'Doppio One', sans-serif;
