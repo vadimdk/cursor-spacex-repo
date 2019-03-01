@@ -229,6 +229,10 @@ display: flex;
     margin-left: 105px;
 }
 
+.time-day-one {
+    color: rgb(181,200,211);
+}
+
 /* font-family: 'Doppio One', sans-serif; */
 
 { 
