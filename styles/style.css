@@ -234,9 +234,11 @@ display: flex;
 
 .day {
     
-    /* width: 450px; */
     
-    padding: 0px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
     
 }
 
@@ -246,6 +248,7 @@ display: flex;
     margin-left: 15px;
     font-size: 15px;
     color: rgb(181,200,211);
+    padding-left: 10px;
 }
 
 
@@ -259,17 +262,35 @@ display: flex;
 
 .time-day {
 
-  padding-left: 135px;
+  padding-left: 105px;
  }
+
+
 
 .time-day-one {
     color: rgb(181,200,211);
 }
 
+.time-day-first {
+    margin-left: 5px;
+    margin-right: 2px;
+    padding-left: 25px;
+}
+
+.time-day-second {
+  color: rgb(181,200,211);
+  
+ }
+
 #second-block {
 
     display: flex;
-    flex-grow: 1;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px rgb(82, 108, 136) solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .deorbit-window {
@@ -282,15 +303,24 @@ display: flex;
     padding-left: 5px;
   }
 
+#second-block-first {
+    background-image: linear-gradient(to bottom, rgb(131,151,185), rgb(90,112,137));
+    border: 4px rgb(111, 140, 174) outset;
+}
 
-
+#fourth-block {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
 
  
 
 
 .time-day-second {
 
-  padding-left: 100px;
+  
  }
 
 /* font-family: 'Doppio One', sans-serif; */
