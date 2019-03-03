@@ -324,6 +324,17 @@ display: flex;
     color: white;
 }
 
+#schedule-row {
+    padding: 15px;
+    border: 3px rgb(137, 160, 188) solid;
+}
+
+.schedule  {
+    flex-grow: 3;
+    font-size: 20px;
+}
+
+
 
 .time-day-second {
 
