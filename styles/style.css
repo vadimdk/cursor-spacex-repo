@@ -312,10 +312,17 @@ display: flex;
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
-    
+    padding-top: 15px;
 }
 
- 
+ #fourth-block > div.curent {
+    flex-grow: 2;
+    color: rgb(183,232,238);
+}
+
+.retro {
+    color: white;
+}
 
 
 .time-day-second {
