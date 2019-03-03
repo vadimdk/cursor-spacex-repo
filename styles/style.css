@@ -200,6 +200,28 @@
     left: 295px;
 
     }
+#fourth-row {
+ display: flex;
+  
+}
+
+#first-block {
+    /* display: flex; */
+    width: 50%;
+}
+
+#estimated {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgb(131,151,185), rgb(90,112,137));
+    border: 4px rgb(111, 140, 174) outset;
+    
+}
+
+.estimated-arrival {
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(181,200,211);
+}
 
 #next-los {
 
@@ -207,17 +229,18 @@ display: flex;
   background-image: linear-gradient(to bottom,
    rgb(131,151,185), rgb(90,112,137));
  border: 4px rgb(111, 140, 174) outset;
+ 
 }
-
-
 
 .day {
-    box-sizing: border-box;
-    width: 450px;
-    /* height: 100px; */
-    padding: 20px;
-    /* border: 10px solid blue; */
+    
+    /* width: 450px; */
+    
+    padding: 0px;
+    
 }
+
+
 
 #next-los > div.next-los-time  {
     margin-left: 15px;
@@ -225,17 +248,54 @@ display: flex;
     color: rgb(181,200,211);
 }
 
+
 #next-los > div.time-day  {
-    margin-left: 105px;
+     margin-left: 5px;
+    margin-right: 2px;
 }
+
+
+
+
+.time-day {
+
+  padding-left: 135px;
+ }
 
 .time-day-one {
     color: rgb(181,200,211);
 }
 
+#second-block {
+
+    display: flex;
+    flex-grow: 1;
+}
+
+.deorbit-window {
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(181,200,211);
+    
+    display: -webkit-inline-box;
+    width: 93px;
+    padding-left: 5px;
+  }
+
+
+
+
+ 
+
+
+.time-day-second {
+
+  padding-left: 100px;
+ }
+
 /* font-family: 'Doppio One', sans-serif; */
 
 { 
-    
+   
 
     }
