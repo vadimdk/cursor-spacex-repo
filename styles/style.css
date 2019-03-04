@@ -35,14 +35,6 @@
   border: 2px rgb(111, 140, 174) outset ;
 }
 
-/*.block-label { font-size: 12px; }
-.block-title {
-  font-family: 'Teko', sans-serif;
-  font-size: 35px;
-  line-height: 30px;
-  margin-top: 6px; 
-} */
-
 
 
 
@@ -396,8 +388,8 @@ display: flex;
     position: absolute;
     width: 15px;
     height: 15px;
-    top: 328%;
-    left: 15.1%;
+    top: 992px;
+    left: 137px;
     border-radius: 50%;
     background-color: #ffff;
 }
@@ -444,6 +436,10 @@ display: flex;
     border-bottom: 3px rgb(82, 108, 136) solid;
 }
 
+.row.fourth-time {
+    margin-bottom: 20px;
+}
+
 #timing-block > div.row.fourth-time > div.fourth-time {
     font-size: 28px;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -460,9 +456,69 @@ display: flex;
     margin-left: 50px;
     font-size: 20px;
     color: rgb(181,200,211);
-    border-bottom: 3px rgb(82, 108, 136) solid;
+    border-bottom: 0px rgb(82, 108, 136) solid;
 }
- }
+ 
+ .dragon-second {
+    font-size: 20px;
+    color: rgb(181,200,211);
+    padding-top: 10px;
+    margin-right: 15px;
+    border-bottom: 0px rgb(82, 108, 136) solid;
+}
+
+
+
+ .row.double-header { 
+   display: flex;
+
+    }
+
+.row.double-header .header {
+  font-size:15px;  
+  background: rgb(130,161,195);  
+  padding: 11px 15px;
+  border: 2px rgb(92,120,155) solid;
+    }
+
+
+
+.rendez-header { 
+   
+flex-grow: 2;
+    }
+
+
+.approach-header { 
+   
+flex-grow: 1;
+    }
+    
+.approach { 
+   
+
+    }
+
+ .ground-row  { 
+   display: flex;
+
+    }
+
+ .ground-row-cell { 
+    padding: 5px 7px;
+    
+    flex-basis: 10%;
+    }
+   
+
+
+#progress-value { 
+   background: rgb(156,237,241);
+   width: 275px;
+   height: 25px;
+    }
+
+
 
 /* font-family: 'Doppio One', sans-serif; */
 
