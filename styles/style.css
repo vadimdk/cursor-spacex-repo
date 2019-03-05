@@ -527,6 +527,7 @@ flex-grow: 1;
    top: 0px;
    left: 37%;
    transition: all 6s linear;
+   z-index: 3; 
     }
 .ground-block { 
    position: absolute;
@@ -580,6 +581,16 @@ flex-grow: 1;
    left: 89%;
 }
 
+
+.ground-block.b-9 { 
+   width: 65px;
+   left: 33%;
+}
+
+.ground-block-current { 
+   background: rgb(156,237,241);
+
+    }
 
 #progress-value { 
    background: rgb(156,237,241);
