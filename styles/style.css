@@ -533,8 +533,10 @@ flex-grow: 1;
    margin-top: 2px;
    height: 20px;
    background: rgb(150,183,216);
-   
+   transition: left 3s linear;
+   z-index: 2;
     }
+
 .ground-block.b-1 { 
    width: 35px;
    left: 14%;
@@ -547,9 +549,37 @@ flex-grow: 1;
 
     .ground-block.b-3 { 
    width: 77px;
-   left: 42%;
-   z-index: 2;
+   left: 66%;
+   
     }
+
+.ground-block.b-4 { 
+   width: 57px;
+   left: 73%;
+   
+    }
+
+    .ground-block.b-5 { 
+   width: 70px;
+   left: 22%;
+   
+    }
+
+.ground-block.b-6 { 
+   width: 45px;
+   left: 22%;
+    }
+
+    .ground-block.b-7 { 
+   width: 25px;
+   left: 38%;
+    }
+
+.ground-block.b-8 { 
+   width: 65px;
+   left: 89%;
+}
+
 
 #progress-value { 
    background: rgb(156,237,241);
