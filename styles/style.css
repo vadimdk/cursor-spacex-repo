@@ -592,6 +592,20 @@ flex-grow: 1;
 
     }
 
+    .groun-row-timeline { 
+   background: transparent;
+   height: 30px;
+   display: flex;
+    }
+
+    .groun-row-timeline .ground-row-cell { 
+      border:none;
+      margin-left: 60px;
+      font-size: 10px;
+      margin-top: -10px;
+
+    }
+
 #progress-value { 
    background: rgb(156,237,241);
    width: 275px;
